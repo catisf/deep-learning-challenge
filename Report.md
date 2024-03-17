@@ -27,26 +27,26 @@ The aim of this project was to build a binary classifier, to help the nonprofit 
 
 
 ![model1.png](https://github.com/catisf/deep-learning-challenge/blob/main/images/model1.png)
-Fig. 1 - Model architecture
+    Fig. 1 - Model architecture
 
 - **Activation functions**: the hidden layers used a 'ReLU' activation function - a good starting point given its faster learning. The output layer used a 'Sygmoid' activation function, which is ideal for binary classification
 - **Model performance**: this model came short of the target performance, with an accuracy of 73%
 
 ![alt text](https://github.com/catisf/deep-learning-challenge/blob/main/images/model1_acc.png)
-Fig. 2 - Model accuracy
+    Fig. 2 - Model accuracy
 
 - **Model optimization**: in order to optimise the model, the following approaches were taken:
     - *Data preprocessing*: different cut-off values for the binned features (classification and application type) were trialed. As amount of funding requested was the feature with the most unique values, in one iteration of the model, this features was binned into 4 categories: funding bids under 10.000, under 100.000, under 1.000.000 and over 1.000.000
     - *Model architecture*: an additional hidden layer was added, the number of neurons in each layer changed (to 90, 60, and 30). In one attempt, the activation function of the hidden layers was changed to 'Tahn'
 
     ![alt text](https://github.com/catisf/deep-learning-challenge/blob/main/images/model_optimisation.png)
-    Fig. 3 - Model with added hidden layer
+        Fig. 3 - Model with added hidden layer
     
     - *Model training*: different epochs were trialed to train the model
     - *Auto optimisation*: in an attempt to understand whether there were any changes to the model's parameters missed, kera-tuner was used to assess a potential best model. 
 
     ![alt text](https://github.com/catisf/deep-learning-challenge/blob/main/images/model_acc_auto_opt.png)
-    Fig. 4 - Model accuracy after auto-optimization
+        Fig. 4 - Model accuracy after auto-optimization
 
 None of these optimisation approaches (including using kera-tuner) reached the target performance. 
 
