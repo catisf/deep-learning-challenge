@@ -47,11 +47,12 @@ The aim of this project was to build a binary classifier, to help the nonprofit 
   <img src = "https://github.com/catisf/deep-learning-challenge/blob/main/images/model_optimisation.png" height = "60%" width = "60%">
 </p>
 <h6 align="center">Fig. 3 - Model with added hidden layer</h6> <br>
-    -  *Model training*: different epochs were trialed to train the model
-    - *Auto optimisation*: in an attempt to understand whether there were any changes to the model's parameters missed, kera-tuner was used to assess a potential best model. 
+
+   - *Model training*: different epochs were trialed to train the model
+   - *Auto optimisation*: in an attempt to understand whether there were any changes to the model's parameters missed, kera-tuner was used to assess a potential best model. 
 
 <p align="center">
-  <img src = "https://github.com/catisf/deep-learning-challenge/blob/main/images/model_acc_auto_opt" height = "50%" width = "60%">
+  <img src = "https://github.com/catisf/deep-learning-challenge/blob/main/images/model_acc_auto_opt.png" height = "50%" width = "60%">
 </p>
 <h6 align="center">Fig. 4 - Model accuracy after auto-optimization</h6>
 
