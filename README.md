@@ -24,7 +24,7 @@ The aim of this project was to build a binary classifier, to help the nonprofit 
 - **Model performance**: this model came short of the target performance, with an accuracy of 73%.
 - **Model optimization**: in order to optimise the model, the several approaches were taken, including adding an extra hidden layer, changing the activation function in the hidden layers, trialing a different number of trailing epochs, and using auto-optimisation with keras-tuner. None of these optimisation approaches (including using kera-tuner) reached the target performance. 
 
-More details on data processing, and on model compilation, training and evaluation can be found in the [full report](). 
+More details on data processing, and on model compilation, training and evaluation can be found in the [full report](https://github.com/catisf/deep-learning-challenge/blob/main/Report.md). 
 
 ### Summary
 This deep learning model fell short from the target performance, with an accuracy of only 73%. The model's accuracy remained consistently under the target performance even after different optimisation attempts. 
