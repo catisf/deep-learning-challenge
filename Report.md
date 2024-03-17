@@ -26,13 +26,13 @@ The aim of this project was to build a binary classifier, to help the nonprofit 
 - **Model architecture**: the model was initiated with an input and output layer, as well as 2 hidden layers, with 80 and 30 neurons each. 
 
 
-![alt text](image.png)
+![alt text](model1.png)
 Fig. 1 - Model architecture
 
 - **Activation functions**: the hidden layers used a 'ReLU' activation function - a good starting point given its faster learning. The output layer used a 'Sygmoid' activation function, which is ideal for binary classification
 - **Model performance**: this model came short of the target performance, with an accuracy of 73%
 
-![alt text](image-2.png)
+![alt text](model1_acc.png)
 Fig. 2 - Model accuracy
 
 - **Model optimization**: in order to optimise the model, the following approaches were taken:
